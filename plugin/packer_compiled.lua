@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Adrian\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cmake-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Adrian\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmake-tools.nvim",
+    url = "https://github.com/Civitasv/cmake-tools.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\Adrian\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -148,11 +153,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Adrian\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-cmake"] = {
-    loaded = true,
-    path = "C:\\Users\\Adrian\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-cmake",
-    url = "https://github.com/cdelledonne/vim-cmake"
   },
   ["which-key.nvim"] = {
     loaded = true,

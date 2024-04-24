@@ -31,7 +31,7 @@ require('packer').startup(function()
 		"L3MON4D3/LuaSnip",
 		"rafamadriz/friendly-snippets"
 	}
-	use 'cdelledonne/vim-cmake'
+	use 'Civitasv/cmake-tools.nvim'
     use 'morhetz/gruvbox'
 
 end)
