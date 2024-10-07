@@ -35,6 +35,7 @@ M.setup = function()
 	local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
 	for _, lsp in ipairs(servers) do
 		lspconfig[lsp].setup {
+			root_dir = lspconfig.util.root_pattern("compile_commands.json", "compile_flags.txt", ".git"),
 			capabilities = capabilities,
 			on_attach = setup_lsp_keybindings
 		}
